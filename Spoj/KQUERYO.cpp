@@ -68,13 +68,6 @@ int main()
     {
         sort(b[i].begin(),b[i].end());
     }
-    /*for(i=0;i<=k;i++)
-    {
-        cout<<"block : "<<i<<endl;;
-        for(j=0;j<b[i].size();j++)
-            cout<<b[i][j]<<" ";
-        cout<<endl;
-    }*///blocks are fine
     scanf("%lld",&q);
     ans = 0;
     while(q--)
